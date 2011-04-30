@@ -1,0 +1,75 @@
+{
+    "run_list": ["main::add_repositories", "main::base", "main::desktop", "main::dev", "main::config"],
+    "user": "matteo",
+    "group": "matteo",
+
+    /* Definition format for a package. "name" is mandatory
+        {"name":""}
+        {"name":"", "repo":"", "key":""}
+    */
+    "distro_base_packages": [
+        {"name":"bash-completion"},
+        {"name":"htop"},
+        {"name":"ppa-purge"},
+        {"name":"vim"}
+    ],
+    "distro_desktop_packages": [
+        {"name":"ubuntu-restricted-extras"},
+        {"name":"amule-daemon"},
+        {"name":"shutter"},
+        {"name":"picard"},
+        {"name":"inkscape"},
+        {"name":"glabels"},
+        {"name":"gimp"},
+        {"name":"xsane"},
+        {"name":"nautilus-open-terminal"},
+        {"name":"nautilus-gksu"},
+        {"name":"calibre"},
+        {"name":"gnome-do"},
+        {"name":"gnome-do-plugins"},
+        {"name":"cheese"},
+        {"name":"caffeine", "repo":"ppa:caffeine-developers/ppa"},
+        {"name":"fluxgui", "repo":"ppa:kilian/f.lux"},
+
+        {"name":"alien-arena"},
+
+        {"name":"baobab"},
+        {"name":"compizconfig-settings-manager"},
+        {"name":"seahorse"},
+        {"name":"seahorse-plugins"}
+    ],
+    "distro_dev_packages": [
+        {"name":"git"}, 
+        {"name":"gitk"}, 
+        {"name":"git-gui"}, 
+        {"name":"gitg"}, 
+        {"name":"meld"},
+        {"name":"vim-gnome"},
+        {"name":"exuberant-ctags"},
+        {"name":"virtualbox-4.0", "repo":"deb http://download.virtualbox.org/virtualbox/debian natty contrib", "key":"http://download.virtualbox.org/virtualbox/debian/oracle_vbox.asc"},
+        {"name":"dkms"}
+    ],
+
+    "distro_python_packages": [
+        {"name":"python-setuptools"},
+        {"name":"python-pip"}
+    ],
+    "pip_python_packages": [
+        {"name":"virtualenv"},
+        {"name":"virtualenvwrapper"}
+    ],
+
+    "distro_ruby_packages": [
+        {"name":"ruby1.8-dev"},
+        {"name":"ruby1.8"},
+        {"name":"ri1.8"},
+        {"name":"libruby1.8"},
+        {"name":"rubygems1.8"}
+    ],
+    "gem_ruby_packages": [
+        {"name":"vagrant"}
+    ],
+
+    "banned_apps_messaging_menu":["evolution"]
+}
+
