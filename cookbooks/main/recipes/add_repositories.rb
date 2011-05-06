@@ -48,3 +48,9 @@ node[:distro_ruby_packages].each do |pkg|
     add_repo(pkg)
 end
 
+script "update_apt_repository_cache" do
+    interpreter "bash"
+    user "root"
+    cwd "/tmp"
+    code "apt-get update"
+end
