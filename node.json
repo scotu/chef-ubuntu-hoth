@@ -57,7 +57,8 @@
     ],
     "pip_python_packages": [
         {"name":"virtualenv"},
-        {"name":"virtualenvwrapper"}
+        {"name":"virtualenvwrapper"},
+        {"name":"hyde"}/* maybe this should be installed and used in virtualenv? */
     ],
 
     "distro_ruby_packages": [
