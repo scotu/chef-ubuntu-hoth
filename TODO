@@ -1,0 +1,6 @@
+ * Is there a way to login to ubuntuone?
+   * yes, do it
+     * ln -s dotfiles in ubuntuone's dir
+   * no
+     * if ubuntuone is already in sync (logged in manually)
+       * ln -s dotfiles in ubuntuone's dir
