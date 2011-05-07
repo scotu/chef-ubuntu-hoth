@@ -29,6 +29,7 @@
         {"name":"gnome-do-plugins"},
         {"name":"cheese"},
         {"name":"caffeine", "repo":"ppa:caffeine-developers/ppa"},
+        {"name":"touchpad-indicator", "repo":"ppa:atareao/atareao"},
         {"name":"fluxgui", "repo":"ppa:kilian/f.lux"},
 
         {"name":"alien-arena"},
