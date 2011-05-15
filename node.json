@@ -11,6 +11,7 @@
         {"name":"bash-completion"},
         {"name":"htop"},
         {"name":"ppa-purge"},
+        {"name":"byobu"},
         {"name":"vim"}
     ],
     "distro_desktop_packages": [
@@ -70,7 +71,9 @@
         {"name":"rubygems1.8"}
     ],
     "gem_ruby_packages": [
-        {"name":"vagrant"}
+        {"name":"vagrant"},
+        {"name":"vagrantboxes"},
+        {"name":"sahara"}
     ],
 
     "banned_apps_messaging_menu":["evolution"]
