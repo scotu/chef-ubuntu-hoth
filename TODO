@@ -4,3 +4,6 @@
    * no
      * if ubuntuone is already in sync (logged in manually)
        * ln -s dotfiles in ubuntuone's dir
+ * install preyproject.com
+    * install traceroute
+    
