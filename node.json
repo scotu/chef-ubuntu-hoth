@@ -12,6 +12,7 @@
         {"name":"htop"},
         {"name":"ppa-purge"},
         {"name":"byobu"},
+        {"name":"curl"},
         {"name":"vim"}
     ],
     "distro_desktop_packages": [
