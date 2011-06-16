@@ -30,6 +30,7 @@
         {"name":"gnome-do"},
         {"name":"gnome-do-plugins"},
         {"name":"cheese"},
+        {"name":"ejecter", "repo":"ppa:fredp/ppa"}
         {"name":"caffeine", "repo":"ppa:caffeine-developers/ppa"},
         {"name":"touchpad-indicator", "repo":"ppa:atareao/atareao"},
         {"name":"fluxgui", "repo":"ppa:kilian/f.lux"},
