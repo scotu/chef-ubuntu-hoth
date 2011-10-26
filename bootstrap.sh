@@ -29,7 +29,7 @@ case "${1}" in
 esac
 
 sudo apt-get -q -y install git ruby1.9.1 ruby1.9.1-dev ri1.9.1 libruby1.9.1 rubygems1.9.1 build-essential wget ssl-cert
-(git clone https://scotu@github.com/scotu/chef-ubuntu-hoth.git $COM_POWAZORD_CHEF_UBUNTU_HOTH_CLONE_DIR && cd$COM_POWAZORD_CHEF_UBUNTU_HOTH_CLONE_DIR && git checkout -b $COM_POWAZORD_CHEF_UBUNTU_HOTH_BRANCH origin/$COM_POWAZORD_CHEF_UBUNTU_HOTH_BRANCH)
+(git clone https://scotu@github.com/scotu/chef-ubuntu-hoth.git $COM_POWAZORD_CHEF_UBUNTU_HOTH_CLONE_DIR && cd $COM_POWAZORD_CHEF_UBUNTU_HOTH_CLONE_DIR && git checkout -b $COM_POWAZORD_CHEF_UBUNTU_HOTH_BRANCH origin/$COM_POWAZORD_CHEF_UBUNTU_HOTH_BRANCH)
 
 sudo gem install chef
 sudo /var/lib/gems/1.9.1/bin/chef-solo -c $COM_POWAZORD_CHEF_UBUNTU_HOTH_CLONE_DIR/solo.rb && rm -rf $COM_POWAZORD_CHEF_UBUNTU_HOTH_CLONE_DIR
