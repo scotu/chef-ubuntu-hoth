@@ -50,8 +50,10 @@
         {"name":"meld"},
         {"name":"vim-gnome"},
         {"name":"exuberant-ctags"},
-        {"name":"virtualbox-4.0", "repo":"deb http://download.virtualbox.org/virtualbox/debian oneiric contrib", "key":"http://download.virtualbox.org/virtualbox/debian/oracle_vbox.asc"},
-        {"name":"dkms"}
+        {"name":"virtualbox-4.1", "repo":"deb http://download.virtualbox.org/virtualbox/debian oneiric contrib", "key":"http://download.virtualbox.org/virtualbox/debian/oracle_vbox.asc"},
+        {"name":"dkms"},
+	{"name":"libxml2-dev"},
+	{"name":"libxslt1-dev"}
     ],
 
     "distro_python_packages": [
