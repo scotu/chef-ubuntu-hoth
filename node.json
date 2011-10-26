@@ -26,8 +26,6 @@
         {"name":"nautilus-open-terminal"},
         {"name":"nautilus-gksu"},
         {"name":"calibre"},
-        {"name":"gnome-do"},
-        {"name":"gnome-do-plugins"},
         {"name":"cheese"},
         {"name":"ejecter"},
 	{"name":"indicator-sensors", "repo":"ppa:alexmurray/indicator-sensors"},
