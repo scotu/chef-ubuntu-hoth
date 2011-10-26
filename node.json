@@ -64,11 +64,11 @@
     ],
 
     "distro_ruby_packages": [
-        {"name":"ruby1.8-dev"},
-        {"name":"ruby1.8"},
-        {"name":"ri1.8"},
-        {"name":"libruby1.8"},
-        {"name":"rubygems1.8"}
+        {"name":"ruby1.9.1-dev"},
+        {"name":"ruby1.9.1"},
+        {"name":"ri1.9.1"},
+        {"name":"libruby1.9.1"},
+        {"name":"rubygems1.9.1"}
     ],
     "gem_ruby_packages": [
         {"name":"vagrant"},
