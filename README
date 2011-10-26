@@ -1,1 +1,5 @@
 A (quite pointless) experiment at using chef-solo to manage installation of all the software I want on my workstation from a clean Ubuntu installation
+
+Usage : sh bootstrap.sh <distro-version>
+You can use 11.10, oneiric, 11.04 or natty as <distro-version>
+

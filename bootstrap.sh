@@ -1,6 +1,6 @@
 #! /bin/bash
 
-COM_POWAZORD_CHEF_UBUNTU_HOTH_USAGE_MSG="Usage : $0 <distro-version>"
+COM_POWAZORD_CHEF_UBUNTU_HOTH_USAGE_MSG="Usage : sh $0 <distro-version>"
 COM_POWAZORD_CHEF_UBUNTU_HOTH_DISTRO_VERSIONS_MSG="You can use 11.10, oneiric, 11.04 or natty as <distro-version>"
 
 COM_POWAZORD_CHEF_UBUNTU_HOTH_CLONE_DIR=/tmp/chef-ubuntu-hoth
