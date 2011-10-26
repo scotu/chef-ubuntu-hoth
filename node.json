@@ -32,15 +32,13 @@
         {"name":"ejecter"},
 	{"name":"indicator-sensors", "repo":"ppa:alexmurray/indicator-sensors"},
         {"name":"caffeine", "repo":"ppa:caffeine-developers/ppa"},
-        {"name":"touchpad-indicator", "repo":"ppa:atareao/atareao"},
 
         {"name":"alien-arena"},
 
         {"name":"deja-dup"},
         {"name":"baobab"},
         {"name":"compizconfig-settings-manager"},
-        {"name":"seahorse"},
-        {"name":"seahorse-plugins"}
+        {"name":"seahorse"}
     ],
     "distro_dev_packages": [
         {"name":"git"}, 
