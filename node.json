@@ -75,7 +75,6 @@
         {"name":"vagrantboxes"},
         {"name":"sahara"},
         {"name":"jekyll"},
-        {"name":"less"},
         {"name":"gollum"},
         {"name":"rdiscount"}
     ],
