@@ -28,7 +28,7 @@
         {"name":"calibre"},
         {"name":"cheese"},
         {"name":"ejecter"},
-	{"name":"indicator-sensors", "repo":"ppa:alexmurray/indicator-sensors"},
+        {"name":"indicator-sensors", "repo":"ppa:alexmurray/indicator-sensors"},
         {"name":"caffeine", "repo":"ppa:caffeine-developers/ppa"},
 
         {"name":"alien-arena"},
@@ -45,11 +45,13 @@
         {"name":"gitg"}, 
         {"name":"meld"},
         {"name":"vim-gnome"},
+        {"name":"quickly"},
+        {"name":"python-quickly.widgets"},
         {"name":"exuberant-ctags"},
         {"name":"virtualbox-4.1", "repo":"deb http://download.virtualbox.org/virtualbox/debian oneiric contrib", "key":"http://download.virtualbox.org/virtualbox/debian/oracle_vbox.asc"},
         {"name":"dkms"},
-	{"name":"libxml2-dev"},
-	{"name":"libxslt1-dev"}
+        {"name":"libxml2-dev"},
+        {"name":"libxslt1-dev"}
     ],
 
     "distro_python_packages": [
@@ -58,7 +60,7 @@
     ],
     "pip_python_packages": [
         {"name":"virtualenv"},
-        {"name":"virtualenvwrapper"}/* maybe this should be installed and used in virtualenv? */
+        {"name":"virtualenvwrapper"}
     ],
 
     "distro_ruby_packages": [
@@ -72,8 +74,8 @@
         {"name":"vagrant"},
         {"name":"vagrantboxes"},
         {"name":"sahara"},
-	{"name":"jekyll"},
-	{"name":"gollum"}
+        {"name":"jekyll"},
+        {"name":"gollum"}
     ],
 
     "banned_apps_messaging_menu":["thunderbird"]
