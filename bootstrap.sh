@@ -19,6 +19,10 @@ case "${1}" in
 	"11.04" | "natty" | "11.04-natty")
 		COM_POWAZORD_CHEF_UBUNTU_HOTH_BRANCH="11.04-natty"
 		;;
+	"master" | "dev")
+	    # only for development/testing
+		COM_POWAZORD_CHEF_UBUNTU_HOTH_BRANCH="master"
+		;;
 	*)
 		echo "Distro version not recognized."
 		echo
