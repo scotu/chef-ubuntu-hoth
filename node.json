@@ -75,7 +75,9 @@
         {"name":"vagrantboxes"},
         {"name":"sahara"},
         {"name":"jekyll"},
-        {"name":"gollum"}
+        {"name":"less"},
+        {"name":"gollum"},
+        {"name":"rdiscount"}
     ],
 
     "banned_apps_messaging_menu":["thunderbird"]
