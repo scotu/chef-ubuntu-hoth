@@ -17,26 +17,16 @@
     ],
     "distro_desktop_packages": [
         {"name":"ubuntu-restricted-extras"},
-        {"name":"amule-daemon"},
         {"name":"shutter"},
         {"name":"picard"},
         {"name":"inkscape"},
         {"name":"gimp"},
-        {"name":"xsane"},
         {"name":"nautilus-open-terminal"},
         {"name":"nautilus-gksu"},
-        {"name":"calibre"},
         {"name":"cheese"},
         {"name":"ejecter"},
-        {"name":"indicator-sensors", "repo":"ppa:alexmurray/indicator-sensors"},
-        {"name":"caffeine", "repo":"ppa:caffeine-developers/ppa"},
 
-        {"name":"alien-arena"},
-
-        {"name":"deja-dup"},
-        {"name":"baobab"},
-        {"name":"compizconfig-settings-manager"},
-        {"name":"seahorse"}
+        {"name":"baobab"}
     ],
     "distro_dev_packages": [
         {"name":"git"}, 
@@ -48,7 +38,7 @@
         {"name":"quickly"},
         {"name":"python-quickly.widgets"},
         {"name":"exuberant-ctags"},
-        {"name":"virtualbox-4.1", "repo":"deb http://download.virtualbox.org/virtualbox/debian oneiric contrib", "key":"http://download.virtualbox.org/virtualbox/debian/oracle_vbox.asc"},
+        {"name":"virtualbox-4.1", "repo":"deb http://download.virtualbox.org/virtualbox/debian precise contrib", "key":"http://download.virtualbox.org/virtualbox/debian/oracle_vbox.asc"},
         {"name":"dkms"},
         {"name":"libxml2-dev"},
         {"name":"libxslt1-dev"}
